@@ -31,7 +31,7 @@ function Taskmanager(){
         ])
     }
     function editTask(taskIndex){
-        tasks[taskIndex]. isEditing = true;
+        tasks[taskIndex].isEditing = true;
         setTasks(
             [...tasks]
         )
